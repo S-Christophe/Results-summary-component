@@ -1,0 +1,30 @@
+.category {
+    display: flex;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin-bottom: 1em;
+
+    .categoryName{
+        margin-left: 0.6em;
+    }
+
+    .score {
+        margin-left: auto;
+    }
+}
+
+.Reaction {
+    background-color: $Light-red-bg; 
+}
+
+.Memory {
+    background-color: $Orangey-yellow-bg; 
+}
+
+.Verbal {
+    background-color: $Green-teal-bg; 
+}
+
+.Visual {
+    background-color: $Cobalt-blue-bg; 
+}

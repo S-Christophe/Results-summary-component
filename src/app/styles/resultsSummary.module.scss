@@ -1,0 +1,23 @@
+.resultsSummary {
+    font-family: $HankenGroteskMedium;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-size: 1em;
+        font-family: $HankenGroteskBold;
+        margin-bottom: 1em;
+    }
+}
+
+
+@include desktop {
+    .resultsSummary {
+        flex-direction: row;
+        margin: 16px;
+        border-radius: 2em;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        max-width: calc(50% + 12em); // + 12em for items padding
+    }
+}

@@ -1,0 +1,26 @@
+.summary {
+    color: $Dark-gray-blue;
+    padding: 2em 3em;
+    flex-basis: 50%;
+
+    button {
+        padding: 0.8em;
+        width: 100%;
+        border-radius: 2em;
+        color: $White;
+        background-color: $Dark-gray-blue;
+        border: none;
+        font-size: 1em;
+    }
+
+    button:hover {
+        background: linear-gradient($Light-slate-blue, $Light-royal-blue);
+    }
+}
+
+@include desktop {
+    .summary {
+        border-top-right-radius: 2em;
+        border-bottom-right-radius: 2em;
+    }
+}
