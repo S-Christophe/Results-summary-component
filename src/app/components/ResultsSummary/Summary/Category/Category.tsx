@@ -11,6 +11,7 @@ export default function Category({category, score, icon}: ICategory) {
               alt="icon"
               width={24}
               height={24}
+              priority
             />
         <p className={styles.categoryName}>{category}</p>
         <p className={styles.score}><strong>{score}</strong>/100</p>
